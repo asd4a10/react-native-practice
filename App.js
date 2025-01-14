@@ -3,6 +3,8 @@ import StatusBarComponent from "./components/status-bar";
 import ModalComponent from "./components/modal";
 import ActivityIndicatorComponent from "./components/activity-indicator";
 import AlertComponent from "./components/alert";
+import Greet from "./components/greet";
+import StyleSheetApi from "./styling-components/stylesheet-api";
 export default function App() {
 	return (
 		<View style={{ backgroundColor: "lightgray", flex: 1, padding: 60 }}>
@@ -10,6 +12,8 @@ export default function App() {
 			<ModalComponent />
 			<ActivityIndicatorComponent />
 			<AlertComponent />
+			<Greet name="asd4a10" />
+			<StyleSheetApi />
 		</View>
 	);
 }
