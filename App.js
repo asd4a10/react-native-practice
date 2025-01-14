@@ -2,13 +2,14 @@ import { View } from "react-native";
 import StatusBarComponent from "./components/status-bar";
 import ModalComponent from "./components/modal";
 import ActivityIndicatorComponent from "./components/activity-indicator";
-
+import AlertComponent from "./components/alert";
 export default function App() {
 	return (
-		<View style={{ backgroundColor: "plum", flex: 1, padding: 60 }}>
+		<View style={{ backgroundColor: "lightgray", flex: 1, padding: 60 }}>
 			<StatusBarComponent />
 			<ModalComponent />
 			<ActivityIndicatorComponent />
+			<AlertComponent />
 		</View>
 	);
 }

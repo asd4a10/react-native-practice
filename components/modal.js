@@ -5,7 +5,7 @@ export default function ModalComponent() {
 	const [modalVisible, setModalVisible] = useState(false);
 
 	return (
-		<View style={{ backgroundColor: "lightblue", flex: 1, padding: 60 }}>
+		<View style={{ backgroundColor: "lightblue" }}>
 			<Button
 				title="Press"
 				onPress={() => {

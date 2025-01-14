@@ -6,7 +6,7 @@ export default function StatusBarComponent() {
 	const [statusBarTextColor, setStatusBarTextColor] = useState("light-content");
 
 	return (
-		<View style={{ backgroundColor: "plum", flex: 1, padding: 60 }}>
+		<View style={{ backgroundColor: "plum", padding: 10 }}>
 			<StatusBar
 				backgroundColor="lightgreen"
 				barStyle={statusBarTextColor}
